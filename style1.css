@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+.box {
+    background-color: #FFC0CB; 
+    border-radius: 10px; 
+    padding: 20px;
+    text-align: center; 
+    transition: transform 0.3s ease;
+}
+.box img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5px; 
+    margin-bottom: 15px;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.box1 {
+grid-column: 1/2; 
+grid-row: 1/2;
+}
+.box2 {
+grid-column: 2/4; 
+grid-row: 1/2;
+}
+.box3 {
+grid-column: 1/2;
+grid-row: 2/3; 
+}
+.box4 {
+grid-column: 2/3;
+grid-row: 2/3;
+}
+.box5 {
+grid-column: 3/4;
+grid-row: 2/3;
+}
+.box6 {
+grid-column: 1/4;
+grid-row: 3/4; 
+}
